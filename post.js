@@ -1,4 +1,4 @@
-const bancodedados = require('./bancodedados')
+const bancodedados = require('./site/bancodedados')
 
 const post = bancodedados.sequelize.define('cadastrados', {
     nome: {
